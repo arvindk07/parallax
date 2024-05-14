@@ -1,0 +1,41 @@
+.parallax {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+
+  h1 {
+    font-size: 100px;
+  }
+
+  .mountains {
+    z-index: 3;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-size: cover;
+    background-position: bottom;
+    background-image: url("/mountains.png");
+  }
+  .planets {
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-size: cover;
+    background-position: bottom;
+    background-image: url("/planets.png");
+  }
+  .stars {
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-size: cover;
+    background-position: bottom;
+    background-image: url("/stars.png");
+  }
+}
